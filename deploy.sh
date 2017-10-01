@@ -7,4 +7,8 @@ else
     exit 1
 fi
 
+./gitpush.sh $1
+
+git-ftp.py
+
 exit 0
