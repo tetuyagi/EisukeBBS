@@ -706,7 +706,7 @@ function reg_limit_chk($type)
         $sc = preg_replace("/\//", "\/", $sc);
 
         if (!preg_match("/$sc/i", $ref)) {
-            $err = 2;
+            $err = 1;
         }
     }
 
