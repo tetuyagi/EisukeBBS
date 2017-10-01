@@ -706,7 +706,7 @@ function reg_limit_chk($type)
         $sc = preg_replace("/\//", "\/", $sc);
 
         if (!preg_match("/$sc/i", $ref)) {
-            $err = 1;
+            $err = 2;
         }
     }
 
@@ -716,7 +716,7 @@ function reg_limit_chk($type)
             $line = preg_replace("/\*/", ".*", $line);
 
             if (preg_match("/$line/", $ip)) {
-                $err = 1;
+                $err = 2;
                 break;
             } elseif (preg_match("/$line/", $host)) {
                 $err = 1;
