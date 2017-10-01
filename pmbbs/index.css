@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+    font-family: Osaka, Tahoma, Verdana, sans-serif;
+}
+
+* {
+
+    font-size:100%;
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    color:#333333;
+    line-height:20px;
+}
+
+a:link {
+    color:#1e90ff;
+}
+
+a:visited {
+    color:#1e90ff;
+}
+
+a:active { 
+    color:#1e90ff;
+}
+
+a {
+    text-decoration : none;
+}
+
+a:hover {
+    color:#0000ff; 
+    text-decoration:none;
+    background:#b0c4de;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+li {
+    padding:3px;
+}
+
+input,
+select {
+    border:1px solid #333333;
+    color:#333333;
+    background:#ffffff;
+    padding:3px;
+    margin:3px;
+}
+
+textarea {
+    border:1px solid #333333;
+    color:#333333;
+    overflow:auto;
+    padding:3px;
+    margin:3px;
+}
+
+hr {
+    color: #3399ff;
+    background-color: #3399ff;
+    height: 1px;
+}
+
+.title {
+    text-align:center;
+    font-size:180%;
+    color:#3399ff;
+}
+
+.count {
+    color:#333333;
+    text-align:right;
+}
+
+.error {
+    color:#ff0000;
+    font-size:140%;
+    font-weight:bolder;
+}
+
+.admin_table {
+    border:1px solid #cecece;
+    border-collapse:collapse;
+}
+
+.admin_table td {
+    border:1px solid #cecece;
+}
+
+.admin_table_column {
+    background:#3399ff;
+    color:#fff;
+    text-align:center;
+    font-size:80%;
+}
+
+.del {
+    background:#c0c0c0;
+    vertical-align:middle;
+}
+
+.thread_title {
+    border-top:1px solid #3399ff;
+    color:#00008b;
+    padding-left:5px;
+}
+
+.thread_main_res {
+    border-top:1px solid #3399ff;
+    text-align:right;
+    vertical-align:middle;
+}
+
+.thread_comment {
+    padding-top:7px;
+    padding-left:7px;
+    color:#000;
+}
+
+.thread_bottom {
+    padding-top:7px;
+    padding-left:7px;
+    padding-right:3px;
+    color:#000;
+    text-align:right;
+}
+
+.thread_name {
+    color:#333333;
+}
+
+.thread_date {
+    color:#333333;
+}
+
+.thread_no {
+    color:#696969;
+}
+
+.thread_res {
+
+}
+
+.thread_res_title {
+    border-top:1px solid #ff8500;
+    color:#00008b;
+    padding-left:5px;
+}
+
+.thread_res_res {
+    border-top:1px solid #ff8500;
+    text-align:right;
+}
+
+.thread_res_comment {
+    padding-top:7px;
+    padding-left:7px;
+    color:#000;
+}
+
+.thread_res_bottom {
+    padding-top:7px;
+    padding-left:7px;
+    color:#000;
+    text-align:right;
+}
+
+.thread_res_name {
+    color:#333333;
+}
+
+.thread_res_date {
+    color:#333333;
+}
+
+.thread_res_no {
+    color:#696969;
+}
+
+.att {
+    color:#dd0000;
+}
+
+.howto {
+    border:1px solid #696969;
+    line-height:180%;
+}
+
+.howto_title {
+    padding:10px 0 0 0;
+    text-decoration:underline;
+}
+
+.bold {
+    font-weight:bold;
+}
