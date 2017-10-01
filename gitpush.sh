@@ -1,7 +1,7 @@
 #!/bin/sh
 
-repo = "origin"
-branch = "master"
+repo="origin"
+branch="master"
 
 if [ $# -ne 1 ]; then
     echo "コメントを入力して下さい。"
