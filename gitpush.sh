@@ -15,4 +15,4 @@ git commit -m "$1"
 echo "push"
 git push $repo $branch
 
-exit 1
+exit 0
