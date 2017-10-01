@@ -26,7 +26,7 @@ $driver_optioins = array(
 );
 
 try{
-  $pdo = new PDO($dsn, $user, $password, $driver_optioins);
+  $pdo = new PDO($dsn, $username, $password, $driver_optioins);
   echo '<p> データベース接続成功。</p>';
 }catch(PDOException $e){
 $message =  'データベース接続失敗。' .$e->getMessage();
