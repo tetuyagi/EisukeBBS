@@ -7,7 +7,13 @@ else
     exit 1
 fi
 
-./gitpush.sh $1
+
+./gitpush.sh "$1"
+
+if [ $? -ne 0 ]; then
+    echo "gitpush.sh failed."
+    exit 1
+fi
 
 git-ftp.py
 
