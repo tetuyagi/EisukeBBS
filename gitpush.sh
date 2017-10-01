@@ -8,11 +8,8 @@ if [ $# -ne 1 ]; then
     exit 1
 fi 
 
-echo "add"
 git add .
-echo "commit"
 git commit -m "$1"
-echo "push"
 git push $repo $branch
 
 exit 0
