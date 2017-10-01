@@ -9,16 +9,16 @@
 
 //DB設定
 //データベースサーバ名
-define('DB_SERVER_NAME', 'localhost');
+define('DB_SERVER_NAME', 'mysql1.php.xdomain.ne.jp');
 
 //データベース名
-define('DB_NAME', 'test_script');
+define('DB_NAME', 'tyagiserver_bbs');
 
 //データベースアクセスユーザ名
-define('DB_USER', 'id');
+define('DB_USER', 'tyagiserver_root');
 
 //データベースアクセスパスワード
-define('DB_PW', 'pass');
+define('DB_PW', 'password');
 
 //スクリプト設定
 //パスワード
