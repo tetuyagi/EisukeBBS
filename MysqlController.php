@@ -16,8 +16,8 @@
 <?php
 $host = 'mysql1.php.xdomain.ne.jp';
 $dbname = 'tyagiserver_bbs';
-$dsn = 'mysql:host='.$host.';dbname='.$dbname.';charset='.$charset;
 $charset = 'utf8';
+$dsn = 'mysql:host='.$host.';dbname='.$dbname.';charset='.$charset;
 $username = 'tyagiserver_root';
 $password = 'password';
 
