@@ -37,7 +37,7 @@ define('TGIFW', 300);
 define('TGIFH', 150);
 
 //戻り先
-define('HOMEPAGE', 'http://localhost');
+define('HOMEPAGE', 'http://tyagiserver.html.xdomain.jp');
 
 //戻り先への戻り方
 define('TARGET', '_blank');
