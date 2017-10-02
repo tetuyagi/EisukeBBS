@@ -695,6 +695,8 @@ function reg_limit_chk($type)
 
     global $deny, $ng_word, $post;
 
+    $referer;
+
     //IP等々取得
     $ip  = get_ip();
     $host = get_host();
@@ -706,6 +708,7 @@ function reg_limit_chk($type)
         $sc = preg_replace("/\//", "\/", $sc);
 
         if (!preg_match("/$sc/i", $ref)) {
+            $referer = $ref;
             $err = 1;
         }
     }
@@ -787,7 +790,7 @@ function reg_limit_chk($type)
     if ($err) {
         switch ($err) {
             case 1:
-                error("あなたのコメントは受付できません。");
+                error("あなたのコメントは受付できません。" . $referer);
                 break;
             case 2:
                 error("文字数が制限を超えています。");
