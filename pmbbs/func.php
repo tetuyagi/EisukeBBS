@@ -705,8 +705,10 @@ function reg_limit_chk($type)
     $err = 0;
     if (SCRIPTURL != "") {
         $ref = getenv("HTTP_REFERER") ? getenv("HTTP_REFERER") : $_SERVER['HTTP_REFERER']; 
-        $sc = preg_replace("/\./", "\.", SCRIPTURL);
-        $sc = preg_replace("/\//", "\/", $sc);
+        //$sc = preg_replace("/\./", "\.", SCRIPTURL);
+        //$sc = preg_replace("/\//", "\/", $sc);
+        $sc = preg_replace("/\./", ".", SCRIPTURL);
+        $sc = preg_replace("/\//", "/", $sc);
         $sc1 = $sc;
 
         if (!preg_match("/$sc/i", $ref)) {
