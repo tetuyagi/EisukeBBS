@@ -915,5 +915,3 @@ function entity($str)
     return htmlspecialchars($str);
 }
 ?>
-
-
