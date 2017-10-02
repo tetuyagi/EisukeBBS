@@ -96,7 +96,7 @@ define('MAXPASS', 12);       //パスワード
 
 //ver1.06追加
 //セキュリティ対策。下記URL以外からの投稿を弾く。当スクリプトのURLをhttp://から
-define('SCRIPTURL', 'http://tyagiserver.php.xdomain.jp/phpms/');
+define('SCRIPTURL', 'http://tyagiserver.php.xdomain.jp/phpms/index.php');
 
 //  --設定終了-- //
 
