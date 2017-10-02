@@ -40,7 +40,7 @@ define('TGIFH', 150);
 define('HOMEPAGE', 'http://tyagiserver.html.xdomain.jp');
 
 //戻り先への戻り方
-define('TARGET', '_blank');
+define('TARGET', '_self');
 
 //掲示板のログ表示部分の横幅
 define('TABLE_WIDTH', 500);
